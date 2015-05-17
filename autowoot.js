@@ -27,7 +27,7 @@
     });
 
     API.chatLog("Autowoot turned ON",true);
-    API.chatLog("Credit: http://benzi.io");
+    API.chatLog("More cool things to come!");
 
     $("#woot").click();
 
