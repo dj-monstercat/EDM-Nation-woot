@@ -18,7 +18,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "http://i.benzi.io/WGXI.png"
+                icon: "http://i.imgur.com/FwHUdvG.png"
             });
             setTimeout(function() {
                 notification.close();
@@ -28,6 +28,7 @@
 
     API.chatLog("Autowoot turned ON",true);
     API.chatLog("More cool things to come!");
+    API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
 
     $("#woot").click();
 
