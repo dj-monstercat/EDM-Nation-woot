@@ -30,11 +30,11 @@
     API.chatLog("More cool things to come!");
     API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
 
-    $("#woot").click();
+    $("#Meh").click();
 
     API.on(API.ADVANCE,function(){
     	setTimeout(function(){
-    		$("#woot").click();
+    		$("#Meh").click();
     	},1000);
     });
 }());
