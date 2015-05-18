@@ -17,7 +17,7 @@
     API.on(API.ADVANCE, function(data) {
         if (notify) {
             var notification = new Notification", {
-                body: Don't forget to visit my room!,
+                body: Don't forget to visit my room: https://plug.dj/edmc-3,
                 icon: "http://i.imgur.com/8p5eoAu.png"
             });
             setTimeout(function() {
