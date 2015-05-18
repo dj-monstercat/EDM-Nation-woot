@@ -18,7 +18,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "https://dl.dropboxusercontent.com/s/2ild7e26nds7nff/autowoot.js"
+                icon: "http://i.imgur.com/8p5eoAu.png"
             });
             setTimeout(function() {
                 notification.close();
