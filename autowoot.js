@@ -16,9 +16,9 @@
 
     API.on(API.ADVANCE, function(data) {
         if (notify) {
-            var notification = new Notification", {
-                body: Don't forget to visit my room: https://plug.dj/edmc-3,
-                icon: "http://i.imgur.com/8p5eoAu.png"
+            var notification = new Notification(room + " > Now playing:", {
+                body: data.media.author + " - " + data.media.title,
+                icon: "i.imgur.com/8p5eoAu.png"
             });
             setTimeout(function() {
                 notification.close();
@@ -27,6 +27,7 @@
     });
 
     API.chatLog("Autowoot Version 1.3.24.7937 online",true);
+    API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
 
     $("#woot").click();
 
