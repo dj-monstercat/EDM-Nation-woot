@@ -26,8 +26,7 @@
         }
     });
 
-    API.chatLog("Autowoot turned ON",true);
-    API.chatLog("Auto woot running in beta mode!");
+    API.chatLog("Autowoot Version 1.3.24.7937 online",true);
 
     $("#woot").click();
 
