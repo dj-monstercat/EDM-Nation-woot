@@ -18,7 +18,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "http://i.imgur.com/FwHUdvG.png"
+                icon: "http://i.benzi.io/WGXI.png"
             });
             setTimeout(function() {
                 notification.close();
@@ -27,14 +27,13 @@
     });
 
     API.chatLog("Autowoot turned ON",true);
-    API.chatLog("More cool things to come!");
-    API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
+    API.chatLog("Auto woot running in beta mode!");
 
-    $("#Woot").click();
+    $("#woot").click();
 
     API.on(API.ADVANCE,function(){
     	setTimeout(function(){
-    		$("#Woot").click();
+    		$("#woot").click();
     	},1000);
     });
 }());
