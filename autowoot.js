@@ -24,7 +24,7 @@
                 notification.close();
             }, 10000);
         }
-    });.
+    });
 
     API.chatLog("Autowoot Version 1.3.24.7937 online",true);
 
