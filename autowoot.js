@@ -16,8 +16,8 @@
 
     API.on(API.ADVANCE, function(data) {
         if (notify) {
-            var notification = new Notification(room + " > Now playing:", {
-                body: data.media.author + " - " + data.media.title,
+            var notification = new Notification", {
+                body: Don't forget to visit my room!,
                 icon: "http://i.imgur.com/8p5eoAu.png"
             });
             setTimeout(function() {
