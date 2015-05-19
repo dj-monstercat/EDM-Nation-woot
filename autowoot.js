@@ -18,7 +18,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "i.imgur.com/8p5eoAu.png"
+                icon: "http://i.benzi.io/WGXI.png"
             });
             setTimeout(function() {
                 notification.close();
