@@ -26,7 +26,7 @@
         }
     });
 
-    API.chatLog("Autowoot Version 1.3.24.7937 online",true);
+    API.chatLog("Autowoot Version 1.3.25.7970 online",true);
     API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
 
     $("#woot").click();
