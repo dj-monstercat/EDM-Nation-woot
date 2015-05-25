@@ -18,7 +18,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "http://i.benzi.io/WGXI.png"
+                icon: "http://i.imgur.com/n3TnQ2a.png"
             });
             setTimeout(function() {
                 notification.close();
@@ -27,7 +27,6 @@
     });
 
     API.chatLog("Autowoot Version 1.3.25.7970 online",true);
-    API.chatLog("Don't forget to visit our room: https://plug.dj/edmc-3");
 
     $("#woot").click();
 
