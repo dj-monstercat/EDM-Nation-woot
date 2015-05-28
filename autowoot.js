@@ -28,6 +28,7 @@
     });
 
     API.chatLog("Connected to EDM Nation servers");
+    API.sendChat('Auto woot is now online');
 
     $("#woot").click();
 
