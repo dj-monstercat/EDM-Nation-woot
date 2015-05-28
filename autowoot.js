@@ -13,7 +13,8 @@
             });
         }
     }
-
+    
+    API.chatLog("Connecting... to EDM Nation servers");
     API.on(API.ADVANCE, function(data) {
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
@@ -26,10 +27,7 @@
         }
     });
 
-    API.chatLog("Connecting... to EDM Nation servers");
-    
     API.chatLog("Connected to EDM Nation servers");
-    
     API.chatLog("Autowoot Version 1.3.26.7999 online",true);
 
     $("#woot").click();
