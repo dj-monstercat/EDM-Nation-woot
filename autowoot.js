@@ -28,7 +28,7 @@
 
     API.chatLog("Connecting... to EDM Nation servers");
     API.chatLog("Connected to EDM Nation servers");
-    API.chatLog("Autowoot Version 1.3.25.7970 online",true);
+    API.chatLog("Autowoot Version 1.3.26.7999 online",true);
 
     $("#woot").click();
 
