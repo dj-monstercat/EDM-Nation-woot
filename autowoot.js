@@ -29,7 +29,6 @@
 
     API.chatLog("Connected to EDM Nation servers");
     API.chatLog("Autowoot Version 1.3.26.7999 online",true);
-    API.chatLog("Don't forget to join our room: https://plug.dj/edmc-3");
 
     $("#woot").click();
 
