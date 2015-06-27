@@ -28,7 +28,7 @@
     });
 
     API.chatLog("Connected to EDM Nation servers");
-    API.chatLog("Autowoot Version 1.3.26.7999 online",true);
+    API.chatLog("Autowoot Version 1.4.3.8689 online",true);
 
     $("#woot").click();
 
