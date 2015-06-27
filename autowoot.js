@@ -19,7 +19,7 @@
         if (notify) {
             var notification = new Notification(room + " > Now playing:", {
                 body: data.media.author + " - " + data.media.title,
-                icon: "http://i.benzi.io/WGXI.png"
+                icon: "http://u.jimdo.com/www400/o/s456633413022338a/img/i6440b747a7daf1d9/1433897493/std/image.png"
             });
             setTimeout(function() {
                 notification.close();
